@@ -1,0 +1,189 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------*/
+#section_top {
+    height: 40px;
+    width: 100%;
+    background-color: black;
+}
+#logo {
+    color: #ffffff;
+    text-transform: uppercase;
+    float: left;
+    font-family: 'ralewaymedium';
+    font-size: 14px;
+    padding: 13px 0px 15px 0px;
+    margin-left: 75px;
+    letter-spacing: 2px;
+}
+#logo span {
+    color: #27c7ab;
+    font-family: 'ralewaybold';
+
+}
+div.p1200 {
+    display: block;
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    position: relative;
+    /*border: solid red 1px;*/
+}
+li {
+    display: inline-block;
+    float: left;
+    font-family: 'ralewaymedium';
+    padding: 12px 25px 10px 25px;
+    letter-spacing: 2px;
+}
+nav ul {
+    margin-right: 65px;
+}
+#karuzela {
+    width: 1050px;
+    height: 505px;
+    position: relative;
+    /*border: yellow solid 1px;*/
+    margin: auto;
+}
+#karuzela img {
+    margin-top: 100px;
+    float: left;
+    position: absolute;
+}
+.arrow {
+    width: 45px;
+    height: 506px;
+    line-height: 506px;
+    white-space: nowrap;
+    z-index: 20;
+    /*border: 1px solid green;*/
+    text-align: center;
+    vertical-align: middle;
+    color: #24baa0;
+    font-size: 75px;
+    font-family: 'ralewaymedium';
+
+}
+#left {
+    float: left;
+    display: inline-block;
+}
+#right {
+    float: right;
+    display: inline-block;
+}
+#wrap {
+    width: 960px;
+    height: 505px;
+    margin: 0px 45px auto 45px;
+    position: absolute;
+}
+#text {
+    margin: 100px 50px auto auto;
+    width: 470px;
+    height: 245px;
+    float: right;
+    position: relative;
+    z-index: 30;
+}
+#text h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'ralewaymedium';
+}
+#text p {
+    margin-top: 45px;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'ralewaylight';
+    line-height: 25px;
+}
+#text span {
+    font-family: 'ralewaybold';
+    color: #24baa0;
+}
+#btn input {
+    color: #ffffff;
+    background-color: #24baa0;
+    width: 265px;
+    height: 52px;
+    text-align: center;
+    border: none;
+    font-family: 'ralewaylight';
+    border-radius: 10px;
+}
+#btn {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+#section_top li {
+    color: white;
+}
+#section_top ul {
+    float: right;
+    text-transform: uppercase;
+}
+#section_1 {
+    width: 100%;
+    height: 500px;
+    background: rgba(255, 255, 255, 1);
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(199, 203, 211, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(199, 203, 211, 1)));
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(199, 203, 211, 1) 100%);
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(199, 203, 211, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(199, 203, 211, 1) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(199, 203, 211, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#c7cbd3', GradientType=0);
+}
+#section_2 {
+    width: 100%;
+    height: 350px;
+    background-color: #fff;
+}
+#section_3 {
+    width: 100%;
+    height: 725px;
+    background-color: #f1f1f1;
+}
+#section_4 {
+    width: 100%;
+    height: 650px;
+    background-color: #fff;
+}
